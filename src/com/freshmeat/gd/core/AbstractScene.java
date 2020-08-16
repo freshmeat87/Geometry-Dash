@@ -1,10 +1,8 @@
-package com.freshmeat.gd;
+package com.freshmeat.gd.core;
 
 import java.awt.Graphics2D;
 
 public abstract class AbstractScene {
-
-    public abstract void init();
 
     public abstract void update(double dt);
 
